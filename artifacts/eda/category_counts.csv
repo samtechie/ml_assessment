@@ -1,0 +1,279 @@
+dataset,column,value,rows
+development,pickup,Oklahoma City,1242
+development,pickup,Lexington,1209
+development,pickup,Bakersfield,1193
+development,pickup,Fort Wayne,1170
+development,pickup,Hartford,1150
+development,pickup,Richmond,1140
+development,pickup,Nashville,1124
+development,pickup,Phoenix,1121
+development,pickup,Baton Rouge,1115
+development,pickup,Mobile,1094
+development,pickup,Cincinnati,1080
+development,pickup,Shreveport,1062
+development,pickup,Kansas City,1053
+development,pickup,Columbia,1049
+development,pickup,Atlanta,1029
+development,pickup,San Antonio,972
+development,pickup,Philadelphia,946
+development,pickup,Los Angeles,945
+development,pickup,Tucson,944
+development,pickup,Milwaukee,944
+development,pickup,Syracuse,907
+development,pickup,Montgomery,884
+development,pickup,Greensboro,865
+development,pickup,Memphis,852
+development,pickup,Charleston,848
+development,pickup,Grand Rapids,844
+development,pickup,Amarillo,836
+development,pickup,Fresno,827
+development,pickup,New York,816
+development,pickup,Albany,811
+development,pickup,Lubbock,796
+development,pickup,El Paso,768
+development,pickup,Chattanooga,745
+development,pickup,Toledo,745
+development,pickup,Buffalo,738
+development,pickup,Houston,723
+development,pickup,Jacksonville,666
+development,pickup,Green Bay,662
+development,pickup,Reno,642
+development,pickup,Tulsa,633
+development,pickup,Raleigh,607
+development,pickup,Boston,603
+development,pickup,Corpus Christi,596
+development,pickup,Albuquerque,581
+development,pickup,Harrisburg,574
+development,pickup,Dayton,543
+development,pickup,Tampa,542
+development,pickup,Indianapolis,539
+development,pickup,Madison,499
+development,pickup,Savannah,488
+development,pickup,Baltimore,478
+development,pickup,Little Rock,457
+development,pickup,San Francisco,453
+development,pickup,Providence,425
+development,pickup,Salt Lake City,394
+development,pickup,Austin,393
+development,pickup,New Orleans,385
+development,pickup,Birmingham,364
+development,pickup,Louisville,344
+development,pickup,Washington,337
+development,pickup,Detroit,337
+development,pickup,St. Louis,318
+development,pickup,Las Vegas,277
+development,pickup,Dallas,276
+development,delivery,Lexington,1197
+development,delivery,Fort Wayne,1176
+development,delivery,Baton Rouge,1167
+development,delivery,Bakersfield,1156
+development,delivery,Hartford,1143
+development,delivery,Oklahoma City,1140
+development,delivery,Richmond,1109
+development,delivery,Atlanta,1096
+development,delivery,Phoenix,1090
+development,delivery,Mobile,1089
+development,delivery,Cincinnati,1084
+development,delivery,Columbia,1071
+development,delivery,Nashville,1064
+development,delivery,Tucson,997
+development,delivery,Shreveport,983
+development,delivery,Kansas City,980
+development,delivery,San Antonio,965
+development,delivery,Philadelphia,959
+development,delivery,Los Angeles,955
+development,delivery,Syracuse,926
+development,delivery,Memphis,912
+development,delivery,Montgomery,903
+development,delivery,Grand Rapids,894
+development,delivery,Milwaukee,859
+development,delivery,Charleston,851
+development,delivery,Amarillo,850
+development,delivery,New York,833
+development,delivery,Albany,812
+development,delivery,Greensboro,804
+development,delivery,El Paso,769
+development,delivery,Fresno,763
+development,delivery,Lubbock,754
+development,delivery,Buffalo,753
+development,delivery,Jacksonville,746
+development,delivery,Houston,718
+development,delivery,Toledo,710
+development,delivery,Chattanooga,708
+development,delivery,Green Bay,660
+development,delivery,Raleigh,656
+development,delivery,Reno,653
+development,delivery,Tulsa,647
+development,delivery,Dayton,622
+development,delivery,Boston,619
+development,delivery,Corpus Christi,593
+development,delivery,Albuquerque,572
+development,delivery,Indianapolis,553
+development,delivery,Tampa,553
+development,delivery,Harrisburg,540
+development,delivery,Savannah,528
+development,delivery,Baltimore,488
+development,delivery,Little Rock,471
+development,delivery,San Francisco,467
+development,delivery,Madison,457
+development,delivery,Austin,441
+development,delivery,Providence,415
+development,delivery,Salt Lake City,406
+development,delivery,New Orleans,373
+development,delivery,Louisville,367
+development,delivery,Washington,366
+development,delivery,St. Louis,344
+development,delivery,Birmingham,318
+development,delivery,Detroit,307
+development,delivery,Dallas,306
+development,delivery,Las Vegas,292
+development,equipment,Dry Van,27202
+development,equipment,Reefer,12045
+development,equipment,Flatbed,8753
+prediction,pickup,Lexington,301
+prediction,pickup,Fort Wayne,290
+prediction,pickup,Phoenix,284
+prediction,pickup,Hartford,268
+prediction,pickup,Baton Rouge,266
+prediction,pickup,Bakersfield,264
+prediction,pickup,Mobile,264
+prediction,pickup,Richmond,260
+prediction,pickup,Nashville,256
+prediction,pickup,Cincinnati,250
+prediction,pickup,San Antonio,246
+prediction,pickup,Kansas City,245
+prediction,pickup,Oklahoma City,243
+prediction,pickup,Tucson,243
+prediction,pickup,Columbia,242
+prediction,pickup,Atlanta,239
+prediction,pickup,Shreveport,234
+prediction,pickup,Philadelphia,229
+prediction,pickup,Milwaukee,222
+prediction,pickup,Syracuse,220
+prediction,pickup,New York,211
+prediction,pickup,Montgomery,207
+prediction,pickup,Albany,203
+prediction,pickup,Lubbock,201
+prediction,pickup,Amarillo,199
+prediction,pickup,Charleston,197
+prediction,pickup,Los Angeles,197
+prediction,pickup,Grand Rapids,197
+prediction,pickup,Memphis,191
+prediction,pickup,Greensboro,189
+prediction,pickup,Fresno,186
+prediction,pickup,Houston,172
+prediction,pickup,Reno,171
+prediction,pickup,Chattanooga,171
+prediction,pickup,Tulsa,168
+prediction,pickup,Toledo,164
+prediction,pickup,Green Bay,154
+prediction,pickup,Buffalo,151
+prediction,pickup,Jacksonville,149
+prediction,pickup,Tampa,148
+prediction,pickup,El Paso,148
+prediction,pickup,Savannah,146
+prediction,pickup,Corpus Christi,141
+prediction,pickup,Boston,137
+prediction,pickup,Albuquerque,134
+prediction,pickup,Dayton,126
+prediction,pickup,Harrisburg,125
+prediction,pickup,Indianapolis,122
+prediction,pickup,Raleigh,121
+prediction,pickup,Madison,121
+prediction,pickup,Little Rock,118
+prediction,pickup,Jackson,118
+prediction,pickup,Baltimore,109
+prediction,pickup,Providence,107
+prediction,pickup,Austin,105
+prediction,pickup,San Francisco,104
+prediction,pickup,Knoxville,93
+prediction,pickup,New Orleans,93
+prediction,pickup,Allentown,90
+prediction,pickup,Salt Lake City,89
+prediction,pickup,Laredo,89
+prediction,pickup,Norfolk,88
+prediction,pickup,Charlotte,88
+prediction,pickup,Birmingham,85
+prediction,pickup,San Diego,84
+prediction,pickup,Washington,83
+prediction,pickup,Detroit,83
+prediction,pickup,Louisville,83
+prediction,pickup,Chicago,75
+prediction,pickup,St. Louis,72
+prediction,pickup,Dallas,70
+prediction,pickup,Las Vegas,61
+prediction,delivery,Bakersfield,299
+prediction,delivery,Oklahoma City,290
+prediction,delivery,Lexington,282
+prediction,delivery,Hartford,279
+prediction,delivery,Richmond,270
+prediction,delivery,Fort Wayne,268
+prediction,delivery,Columbia,267
+prediction,delivery,Phoenix,259
+prediction,delivery,Nashville,253
+prediction,delivery,Mobile,251
+prediction,delivery,Cincinnati,248
+prediction,delivery,Tucson,243
+prediction,delivery,Baton Rouge,242
+prediction,delivery,Syracuse,240
+prediction,delivery,Atlanta,238
+prediction,delivery,Philadelphia,232
+prediction,delivery,Montgomery,225
+prediction,delivery,Memphis,223
+prediction,delivery,Milwaukee,223
+prediction,delivery,Los Angeles,219
+prediction,delivery,Shreveport,215
+prediction,delivery,Charleston,211
+prediction,delivery,San Antonio,210
+prediction,delivery,Fresno,206
+prediction,delivery,Kansas City,204
+prediction,delivery,Greensboro,198
+prediction,delivery,Grand Rapids,197
+prediction,delivery,New York,189
+prediction,delivery,Amarillo,189
+prediction,delivery,Lubbock,181
+prediction,delivery,Albany,180
+prediction,delivery,Jacksonville,177
+prediction,delivery,Toledo,177
+prediction,delivery,Buffalo,173
+prediction,delivery,Reno,169
+prediction,delivery,El Paso,168
+prediction,delivery,Chattanooga,163
+prediction,delivery,Tulsa,151
+prediction,delivery,Boston,149
+prediction,delivery,Houston,149
+prediction,delivery,Green Bay,147
+prediction,delivery,Albuquerque,143
+prediction,delivery,Corpus Christi,142
+prediction,delivery,Raleigh,135
+prediction,delivery,Dayton,128
+prediction,delivery,Savannah,127
+prediction,delivery,Tampa,126
+prediction,delivery,Indianapolis,124
+prediction,delivery,Madison,120
+prediction,delivery,Harrisburg,118
+prediction,delivery,Baltimore,116
+prediction,delivery,San Diego,107
+prediction,delivery,Laredo,106
+prediction,delivery,Little Rock,104
+prediction,delivery,Chicago,104
+prediction,delivery,Detroit,103
+prediction,delivery,Salt Lake City,101
+prediction,delivery,San Francisco,101
+prediction,delivery,Austin,91
+prediction,delivery,Charlotte,88
+prediction,delivery,Providence,87
+prediction,delivery,St. Louis,87
+prediction,delivery,New Orleans,86
+prediction,delivery,Louisville,85
+prediction,delivery,Norfolk,84
+prediction,delivery,Allentown,81
+prediction,delivery,Birmingham,78
+prediction,delivery,Knoxville,77
+prediction,delivery,Washington,77
+prediction,delivery,Jackson,75
+prediction,delivery,Las Vegas,75
+prediction,delivery,Dallas,70
+prediction,equipment,Dry Van,6780
+prediction,equipment,Reefer,3051
+prediction,equipment,Flatbed,2169

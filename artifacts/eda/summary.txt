@@ -1,0 +1,37 @@
+Freight data exploration - no fitting or input modification
+
+development: 48,000 rows; 2025-01-01 to 2025-10-31
+  Missing cells by column: {'load_id': 0, 'pickup': 0, 'delivery': 0, 'pickup_lat': 0, 'pickup_lon': 0, 'delivery_lat': 0, 'delivery_lon': 0, 'distance': 0, 'equipment': 0, 'weight': 300, 'date': 0, 'market_index': 374, 'quote_signal': 0, 'posted_rate': 0}
+  Non-positive weights: 292
+  Duplicate full rows excluding load_id: 0
+prediction: 12,000 rows; 2025-11-01 to 2025-12-31
+  Missing cells by column: {'load_id': 0, 'pickup': 0, 'delivery': 0, 'pickup_lat': 0, 'pickup_lon': 0, 'delivery_lat': 0, 'delivery_lon': 0, 'distance': 0, 'equipment': 0, 'weight': 165, 'date': 0, 'market_index': 249, 'quote_signal': 0}
+  Non-positive weights: 145
+  Duplicate full rows excluding load_id: 0
+
+Prediction-only categories:
+  pickup: {'values': ['Allentown', 'Charlotte', 'Chicago', 'Jackson', 'Knoxville', 'Laredo', 'Norfolk', 'San Diego'], 'rows': 725}
+  delivery: {'values': ['Allentown', 'Charlotte', 'Chicago', 'Jackson', 'Knoxville', 'Laredo', 'Norfolk', 'San Diego'], 'rows': 722}
+  equipment: {'values': [], 'rows': 0}
+Loads with either city unseen: 1,447
+Loads with unseen directional lane: 1,461
+
+Development target quantiles:
+{0.0: 57.22, 0.01: 327.16880000000003, 0.5: 2030.76, 0.95: 4953.7665, 0.99: 5972.834000000003, 1.0: 25533.0}
+
+Monthly quote_signal vs rate-per-mile correlations:
+{'1': 0.446702950357581, '2': 0.4790422823156839, '3': 0.4858422022906777, '4': -0.471742155960304, '5': -0.45922950374486843, '6': 0.4766317214139115, '7': -0.468345193616261, '8': -0.013595218943453592, '9': 0.48143724741052424, '10': -0.43397322357729573}
+
+Example invalid development weights (at most five rows):
+  load_id   weight
+TR-000069 -36559.0
+TR-000205 -26670.0
+TR-000207 -20003.0
+TR-000226 -23981.0
+TR-000377 -41397.0
+
+Input contracts passed: unique IDs, complete template coverage, valid dates,
+positive distances and labeled rates, and future-only prediction period.
+Missing-weight and market-index values are reported, not filled here.
+Correlation is a diagnostic of association; it does not establish causation or prove leakage.
+Full-development target summaries reproduce the original exploratory work; they are not a blind evaluation.

@@ -1,0 +1,104 @@
+{'fold': 'May-Jun', 'model': 'equipment_rpm', 'train_n': 19110, 'mae': 206.18429434903717, 'rmse': 654.1803110446749, 'wape_pct': 8.385229158150835, 'mape_pct': 11.011408696752383, 'bias': -90.08061133817509, 'r2': 0.8211934093561306, 'n': 9696}
+{'fold': 'May-Jun', 'model': 'ridge_log', 'train_n': 19110, 'mae': 134.54304898059533, 'rmse': 642.8592325566934, 'wape_pct': 5.471679115523633, 'mape_pct': 5.431350230880633, 'bias': -101.63369940581583, 'r2': 0.8273286217588772, 'n': 9696}
+{'fold': 'May-Jun', 'model': 'robust_log', 'train_n': 19110, 'mae': 122.06437712325028, 'rmse': 638.7379147742269, 'wape_pct': 4.964188845988006, 'mape_pct': 4.96044973006925, 'bias': -88.51936472987268, 'r2': 0.829535489058499, 'n': 9696}
+{'fold': 'May-Jun', 'model': 'robust_log_quote', 'train_n': 19110, 'mae': 108.46304931287435, 'rmse': 634.310075177922, 'wape_pct': 4.4110417165948075, 'mape_pct': 4.439972786677845, 'bias': -65.61313652600946, 'r2': 0.8318906752136868, 'n': 9696}
+/Users/wasswasam/Apps/ml_assessment/.venv-ml/lib/python3.12/site-packages/joblib/externals/loky/backend/context.py:134: UserWarning: Could not find the number of physical cores for the following reason:
+invalid literal for int() with base 10: ''
+Returning the number of logical cores instead. You can silence this warning by setting LOKY_MAX_CPU_COUNT to the number of cores you want to use.
+  warnings.warn(
+  File "/Users/wasswasam/Apps/ml_assessment/.venv-ml/lib/python3.12/site-packages/joblib/externals/loky/backend/context.py", line 264, in _count_physical_cores
+    cpu_count_physical = _count_physical_cores_darwin()
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wasswasam/Apps/ml_assessment/.venv-ml/lib/python3.12/site-packages/joblib/externals/loky/backend/context.py", line 420, in _count_physical_cores_darwin
+    return int(cpu_info)
+           ^^^^^^^^^^^^^
+{'fold': 'May-Jun', 'model': 'boosting_log', 'train_n': 19110, 'mae': 175.23231965414698, 'rmse': 656.3272138074894, 'wape_pct': 7.126455295023408, 'mape_pct': 7.300898349527299, 'bias': -146.11453103996712, 'r2': 0.8200178610544966, 'n': 9696}
+{'fold': 'Jul-Aug', 'model': 'equipment_rpm', 'train_n': 28806, 'mae': 222.7312102524866, 'rmse': 662.874707071885, 'wape_pct': 9.368720473815696, 'mape_pct': 10.105531489609128, 'bias': 40.758199005932084, 'r2': 0.8022426352385149, 'n': 9671}
+{'fold': 'Jul-Aug', 'model': 'ridge_log', 'train_n': 28806, 'mae': 153.00753211255287, 'rmse': 625.2402959017082, 'wape_pct': 6.435940419512371, 'mape_pct': 6.755089204163066, 'bias': 66.60481378281241, 'r2': 0.8240603637746661, 'n': 9671}
+{'fold': 'Jul-Aug', 'model': 'robust_log', 'train_n': 28806, 'mae': 122.22106934954034, 'rmse': 620.5298523588251, 'wape_pct': 5.140972535679485, 'mape_pct': 5.357589956841911, 'bias': 34.39652426338828, 'r2': 0.8267013704115396, 'n': 9671}
+{'fold': 'Jul-Aug', 'model': 'robust_log_quote', 'train_n': 28806, 'mae': 110.17932274910278, 'rmse': 619.780579559543, 'wape_pct': 4.634461760704874, 'mape_pct': 4.727443665834355, 'bias': 18.240903187726197, 'r2': 0.8271196244403802, 'n': 9671}
+{'fold': 'Jul-Aug', 'model': 'boosting_log', 'train_n': 28806, 'mae': 122.22522226041227, 'rmse': 624.0378705242543, 'wape_pct': 5.141147219151405, 'mape_pct': 5.333093707096486, 'bias': 15.228318404338559, 'r2': 0.8247364265956411, 'n': 9671}
+Selected: robust_log_quote
+Holdout: {
+  "model": "robust_log_quote",
+  "train_n": 38477,
+  "train_end": "2025-08-31",
+  "test_start": "2025-09-01",
+  "test_end": "2025-10-31",
+  "mae": 146.77500303924654,
+  "rmse": 644.5283514511863,
+  "wape_pct": 6.134924143337402,
+  "mape_pct": 6.337339482321512,
+  "bias": -122.70209558471333,
+  "r2": 0.8216204043636931,
+  "n": 9523,
+  "baseline": {
+    "mae": 229.09657316845033,
+    "rmse": 670.6599545300177,
+    "wape_pct": 9.575813788340865,
+    "mape_pct": 10.487418950668491,
+    "bias": 40.92857341026478,
+    "r2": 0.8068628254206316,
+    "n": 9523
+  },
+  "by_month": {
+    "9": {
+      "mae": 134.680511546476,
+      "rmse": 626.1227719376983,
+      "wape_pct": 5.596823720144832,
+      "mape_pct": 5.378838625795969,
+      "bias": -112.63188292720918,
+      "r2": 0.8310585490103909,
+      "n": 4670
+    },
+    "10": {
+      "mae": 158.41342778089887,
+      "rmse": 661.7567314655439,
+      "wape_pct": 6.658680408713159,
+      "mape_pct": 7.25969658101805,
+      "bias": -132.39257428047767,
+      "r2": 0.8125723211096745,
+      "n": 4853
+    }
+  },
+  "by_equipment": {
+    "Dry Van": {
+      "mae": 140.86827794925415,
+      "rmse": 665.1871333438748,
+      "wape_pct": 6.1752749839704775,
+      "mape_pct": 5.981686107578636,
+      "bias": -120.70191417709145,
+      "r2": 0.7959350151700444,
+      "n": 5360
+    },
+    "Flatbed": {
+      "mae": 150.3839334945991,
+      "rmse": 522.3623799413406,
+      "wape_pct": 6.163414549812671,
+      "mape_pct": 7.0199572871843055,
+      "bias": -120.51378003315595,
+      "r2": 0.8813029690731646,
+      "n": 1770
+    },
+    "Reefer": {
+      "mae": 157.33590549490282,
+      "rmse": 678.420086293,
+      "wape_pct": 6.036101149999494,
+      "mape_pct": 6.629052216970353,
+      "bias": -128.80083811338437,
+      "r2": 0.8253546509295484,
+      "n": 2393
+    }
+  },
+  "december_schema": {
+    "mae": 165.8307127055202,
+    "rmse": 650.945403403549,
+    "wape_pct": 6.931417625737742,
+    "mape_pct": 7.094814687811912,
+    "bias": -141.78121924200957,
+    "r2": 0.8180507571445126,
+    "n": 9523
+  },
+  "core_kind": "robust"
+}
+Wrote 12000 validation predictions and 31 December predictions.

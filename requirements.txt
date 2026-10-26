@@ -1,3 +1,8 @@
-matplotlib>=3.8,<4
+# Python 3.12 recommended; exact tested versions are in requirements-lock.txt.
 numpy>=1.26,<3
 pandas>=2.0,<3
+scikit-learn>=1.5,<1.8
+joblib>=1.4,<2
+matplotlib>=3.8,<4
+reportlab>=4,<5
+pypdf>=5,<7

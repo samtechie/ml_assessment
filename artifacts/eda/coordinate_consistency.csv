@@ -1,0 +1,273 @@
+dataset,endpoint,city,distinct_latitudes,distinct_longitudes
+development,pickup,Albany,1,1
+development,pickup,Albuquerque,1,1
+development,pickup,Amarillo,1,1
+development,pickup,Atlanta,1,1
+development,pickup,Austin,1,1
+development,pickup,Bakersfield,1,1
+development,pickup,Baltimore,1,1
+development,pickup,Baton Rouge,1,1
+development,pickup,Birmingham,1,1
+development,pickup,Boston,1,1
+development,pickup,Buffalo,1,1
+development,pickup,Charleston,1,1
+development,pickup,Chattanooga,1,1
+development,pickup,Cincinnati,1,1
+development,pickup,Columbia,1,1
+development,pickup,Corpus Christi,1,1
+development,pickup,Dallas,1,1
+development,pickup,Dayton,1,1
+development,pickup,Detroit,1,1
+development,pickup,El Paso,1,1
+development,pickup,Fort Wayne,1,1
+development,pickup,Fresno,1,1
+development,pickup,Grand Rapids,1,1
+development,pickup,Green Bay,1,1
+development,pickup,Greensboro,1,1
+development,pickup,Harrisburg,1,1
+development,pickup,Hartford,1,1
+development,pickup,Houston,1,1
+development,pickup,Indianapolis,1,1
+development,pickup,Jacksonville,1,1
+development,pickup,Kansas City,1,1
+development,pickup,Las Vegas,1,1
+development,pickup,Lexington,1,1
+development,pickup,Little Rock,1,1
+development,pickup,Los Angeles,1,1
+development,pickup,Louisville,1,1
+development,pickup,Lubbock,1,1
+development,pickup,Madison,1,1
+development,pickup,Memphis,1,1
+development,pickup,Milwaukee,1,1
+development,pickup,Mobile,1,1
+development,pickup,Montgomery,1,1
+development,pickup,Nashville,1,1
+development,pickup,New Orleans,1,1
+development,pickup,New York,1,1
+development,pickup,Oklahoma City,1,1
+development,pickup,Philadelphia,1,1
+development,pickup,Phoenix,1,1
+development,pickup,Providence,1,1
+development,pickup,Raleigh,1,1
+development,pickup,Reno,1,1
+development,pickup,Richmond,1,1
+development,pickup,Salt Lake City,1,1
+development,pickup,San Antonio,1,1
+development,pickup,San Francisco,1,1
+development,pickup,Savannah,1,1
+development,pickup,Shreveport,1,1
+development,pickup,St. Louis,1,1
+development,pickup,Syracuse,1,1
+development,pickup,Tampa,1,1
+development,pickup,Toledo,1,1
+development,pickup,Tucson,1,1
+development,pickup,Tulsa,1,1
+development,pickup,Washington,1,1
+development,delivery,Albany,1,1
+development,delivery,Albuquerque,1,1
+development,delivery,Amarillo,1,1
+development,delivery,Atlanta,1,1
+development,delivery,Austin,1,1
+development,delivery,Bakersfield,1,1
+development,delivery,Baltimore,1,1
+development,delivery,Baton Rouge,1,1
+development,delivery,Birmingham,1,1
+development,delivery,Boston,1,1
+development,delivery,Buffalo,1,1
+development,delivery,Charleston,1,1
+development,delivery,Chattanooga,1,1
+development,delivery,Cincinnati,1,1
+development,delivery,Columbia,1,1
+development,delivery,Corpus Christi,1,1
+development,delivery,Dallas,1,1
+development,delivery,Dayton,1,1
+development,delivery,Detroit,1,1
+development,delivery,El Paso,1,1
+development,delivery,Fort Wayne,1,1
+development,delivery,Fresno,1,1
+development,delivery,Grand Rapids,1,1
+development,delivery,Green Bay,1,1
+development,delivery,Greensboro,1,1
+development,delivery,Harrisburg,1,1
+development,delivery,Hartford,1,1
+development,delivery,Houston,1,1
+development,delivery,Indianapolis,1,1
+development,delivery,Jacksonville,1,1
+development,delivery,Kansas City,1,1
+development,delivery,Las Vegas,1,1
+development,delivery,Lexington,1,1
+development,delivery,Little Rock,1,1
+development,delivery,Los Angeles,1,1
+development,delivery,Louisville,1,1
+development,delivery,Lubbock,1,1
+development,delivery,Madison,1,1
+development,delivery,Memphis,1,1
+development,delivery,Milwaukee,1,1
+development,delivery,Mobile,1,1
+development,delivery,Montgomery,1,1
+development,delivery,Nashville,1,1
+development,delivery,New Orleans,1,1
+development,delivery,New York,1,1
+development,delivery,Oklahoma City,1,1
+development,delivery,Philadelphia,1,1
+development,delivery,Phoenix,1,1
+development,delivery,Providence,1,1
+development,delivery,Raleigh,1,1
+development,delivery,Reno,1,1
+development,delivery,Richmond,1,1
+development,delivery,Salt Lake City,1,1
+development,delivery,San Antonio,1,1
+development,delivery,San Francisco,1,1
+development,delivery,Savannah,1,1
+development,delivery,Shreveport,1,1
+development,delivery,St. Louis,1,1
+development,delivery,Syracuse,1,1
+development,delivery,Tampa,1,1
+development,delivery,Toledo,1,1
+development,delivery,Tucson,1,1
+development,delivery,Tulsa,1,1
+development,delivery,Washington,1,1
+prediction,pickup,Albany,1,1
+prediction,pickup,Albuquerque,1,1
+prediction,pickup,Allentown,1,1
+prediction,pickup,Amarillo,1,1
+prediction,pickup,Atlanta,1,1
+prediction,pickup,Austin,1,1
+prediction,pickup,Bakersfield,1,1
+prediction,pickup,Baltimore,1,1
+prediction,pickup,Baton Rouge,1,1
+prediction,pickup,Birmingham,1,1
+prediction,pickup,Boston,1,1
+prediction,pickup,Buffalo,1,1
+prediction,pickup,Charleston,1,1
+prediction,pickup,Charlotte,1,1
+prediction,pickup,Chattanooga,1,1
+prediction,pickup,Chicago,1,1
+prediction,pickup,Cincinnati,1,1
+prediction,pickup,Columbia,1,1
+prediction,pickup,Corpus Christi,1,1
+prediction,pickup,Dallas,1,1
+prediction,pickup,Dayton,1,1
+prediction,pickup,Detroit,1,1
+prediction,pickup,El Paso,1,1
+prediction,pickup,Fort Wayne,1,1
+prediction,pickup,Fresno,1,1
+prediction,pickup,Grand Rapids,1,1
+prediction,pickup,Green Bay,1,1
+prediction,pickup,Greensboro,1,1
+prediction,pickup,Harrisburg,1,1
+prediction,pickup,Hartford,1,1
+prediction,pickup,Houston,1,1
+prediction,pickup,Indianapolis,1,1
+prediction,pickup,Jackson,1,1
+prediction,pickup,Jacksonville,1,1
+prediction,pickup,Kansas City,1,1
+prediction,pickup,Knoxville,1,1
+prediction,pickup,Laredo,1,1
+prediction,pickup,Las Vegas,1,1
+prediction,pickup,Lexington,1,1
+prediction,pickup,Little Rock,1,1
+prediction,pickup,Los Angeles,1,1
+prediction,pickup,Louisville,1,1
+prediction,pickup,Lubbock,1,1
+prediction,pickup,Madison,1,1
+prediction,pickup,Memphis,1,1
+prediction,pickup,Milwaukee,1,1
+prediction,pickup,Mobile,1,1
+prediction,pickup,Montgomery,1,1
+prediction,pickup,Nashville,1,1
+prediction,pickup,New Orleans,1,1
+prediction,pickup,New York,1,1
+prediction,pickup,Norfolk,1,1
+prediction,pickup,Oklahoma City,1,1
+prediction,pickup,Philadelphia,1,1
+prediction,pickup,Phoenix,1,1
+prediction,pickup,Providence,1,1
+prediction,pickup,Raleigh,1,1
+prediction,pickup,Reno,1,1
+prediction,pickup,Richmond,1,1
+prediction,pickup,Salt Lake City,1,1
+prediction,pickup,San Antonio,1,1
+prediction,pickup,San Diego,1,1
+prediction,pickup,San Francisco,1,1
+prediction,pickup,Savannah,1,1
+prediction,pickup,Shreveport,1,1
+prediction,pickup,St. Louis,1,1
+prediction,pickup,Syracuse,1,1
+prediction,pickup,Tampa,1,1
+prediction,pickup,Toledo,1,1
+prediction,pickup,Tucson,1,1
+prediction,pickup,Tulsa,1,1
+prediction,pickup,Washington,1,1
+prediction,delivery,Albany,1,1
+prediction,delivery,Albuquerque,1,1
+prediction,delivery,Allentown,1,1
+prediction,delivery,Amarillo,1,1
+prediction,delivery,Atlanta,1,1
+prediction,delivery,Austin,1,1
+prediction,delivery,Bakersfield,1,1
+prediction,delivery,Baltimore,1,1
+prediction,delivery,Baton Rouge,1,1
+prediction,delivery,Birmingham,1,1
+prediction,delivery,Boston,1,1
+prediction,delivery,Buffalo,1,1
+prediction,delivery,Charleston,1,1
+prediction,delivery,Charlotte,1,1
+prediction,delivery,Chattanooga,1,1
+prediction,delivery,Chicago,1,1
+prediction,delivery,Cincinnati,1,1
+prediction,delivery,Columbia,1,1
+prediction,delivery,Corpus Christi,1,1
+prediction,delivery,Dallas,1,1
+prediction,delivery,Dayton,1,1
+prediction,delivery,Detroit,1,1
+prediction,delivery,El Paso,1,1
+prediction,delivery,Fort Wayne,1,1
+prediction,delivery,Fresno,1,1
+prediction,delivery,Grand Rapids,1,1
+prediction,delivery,Green Bay,1,1
+prediction,delivery,Greensboro,1,1
+prediction,delivery,Harrisburg,1,1
+prediction,delivery,Hartford,1,1
+prediction,delivery,Houston,1,1
+prediction,delivery,Indianapolis,1,1
+prediction,delivery,Jackson,1,1
+prediction,delivery,Jacksonville,1,1
+prediction,delivery,Kansas City,1,1
+prediction,delivery,Knoxville,1,1
+prediction,delivery,Laredo,1,1
+prediction,delivery,Las Vegas,1,1
+prediction,delivery,Lexington,1,1
+prediction,delivery,Little Rock,1,1
+prediction,delivery,Los Angeles,1,1
+prediction,delivery,Louisville,1,1
+prediction,delivery,Lubbock,1,1
+prediction,delivery,Madison,1,1
+prediction,delivery,Memphis,1,1
+prediction,delivery,Milwaukee,1,1
+prediction,delivery,Mobile,1,1
+prediction,delivery,Montgomery,1,1
+prediction,delivery,Nashville,1,1
+prediction,delivery,New Orleans,1,1
+prediction,delivery,New York,1,1
+prediction,delivery,Norfolk,1,1
+prediction,delivery,Oklahoma City,1,1
+prediction,delivery,Philadelphia,1,1
+prediction,delivery,Phoenix,1,1
+prediction,delivery,Providence,1,1
+prediction,delivery,Raleigh,1,1
+prediction,delivery,Reno,1,1
+prediction,delivery,Richmond,1,1
+prediction,delivery,Salt Lake City,1,1
+prediction,delivery,San Antonio,1,1
+prediction,delivery,San Diego,1,1
+prediction,delivery,San Francisco,1,1
+prediction,delivery,Savannah,1,1
+prediction,delivery,Shreveport,1,1
+prediction,delivery,St. Louis,1,1
+prediction,delivery,Syracuse,1,1
+prediction,delivery,Tampa,1,1
+prediction,delivery,Toledo,1,1
+prediction,delivery,Tucson,1,1
+prediction,delivery,Tulsa,1,1
+prediction,delivery,Washington,1,1

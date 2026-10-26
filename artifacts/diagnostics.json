@@ -1,0 +1,43 @@
+{
+  "day_cluster_bootstrap_mae_95pct": [
+    131.6556356643263,
+    162.52644360107138
+  ],
+  "largest_1pct_error_share_pct": 35.549909306571756,
+  "median_absolute_error": 72.05907759921706,
+  "p90_absolute_error": 207.93655967603578,
+  "p95_absolute_error": 273.37520868250425,
+  "city_stress": {
+    "hidden_cities": [
+      "Albany",
+      "Birmingham",
+      "Dallas",
+      "Greensboro",
+      "Lexington",
+      "Mobile",
+      "Providence",
+      "Shreveport"
+    ],
+    "train_n": 21965,
+    "unseen_city": {
+      "mae": 111.74970399141364,
+      "rmse": 662.5871654083099,
+      "wape_pct": 5.1197860308072585,
+      "mape_pct": 4.826481763221563,
+      "bias": -0.9495212767756247,
+      "r2": 0.7962198383644179,
+      "n": 2234
+    },
+    "seen_city": {
+      "mae": 110.38626303327236,
+      "rmse": 606.6860902479228,
+      "wape_pct": 4.531688848487209,
+      "mape_pct": 4.709134569666145,
+      "bias": 23.69696173597202,
+      "r2": 0.8347552680319799,
+      "n": 7437
+    }
+  },
+  "quote_standardized_coefficient": 0.004795304308015954,
+  "feature_count": 160
+}
